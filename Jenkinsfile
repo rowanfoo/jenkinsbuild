@@ -9,6 +9,14 @@ pipeline {
             steps {
                echo 'This is a minimal pipeline.'
                 echo "M2_HOME = %M2_HOME% "
+
+
+             bat '''
+                echo "PATH = %PATH%"
+
+             '''
+
+
             }
         }
     }

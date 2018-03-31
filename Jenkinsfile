@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                echo 'This is a minimal pipeline.'
-                ehco "M2_HOME = %M2_HOME% "
+                echo "M2_HOME = %M2_HOME% "
             }
         }
     }
